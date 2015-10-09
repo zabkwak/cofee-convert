@@ -1,0 +1,22 @@
+{
+  "name": "coffee-convert",
+  "description": "Express middleware. Converts all coffee files in the directory to the js files. Out js strings are stored in memory.",
+  "author": {
+    "name": "Lukas Macuda",
+    "email": "lukas.macuda@gmail.com"
+  },
+  "version": "0.1.0",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "uglify-js": "^2.4.24",
+    "async": "^1.4.2"
+  },
+  "devDependencies": {
+    "express": "^4.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zabkwak/cofee-convert"
+  },
+  "license": "MIT"
+}
