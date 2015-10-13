@@ -1,6 +1,6 @@
 # Coffee Converter
 
-[Express](https://www.npmjs.com/package/express) middleware. Converts all *coffee* files in the directory to the *js* files. Out js strings are stored in memory. 
+[Express](https://www.npmjs.com/package/express) middleware. Converts all *coffee* files in the directory to the *js* files accesible via URL. Out js strings are stored in memory. 
 
 ## Usage
 ```coffeescript
@@ -21,4 +21,5 @@ console.log "Listening on #{port}"
 - **outDir** Directory in uri for js link. Default: /script
 - **cacheTime** Time in seconds for which is the js file cached in the browser. Default: 86400
 - **minify** If true the js file is minified. Default: true
-- **lazy** If true files are converted when there're needed. Otherwise files are converted after the middleware usage. Default: false
+- **lazy** If true files are converted when they're needed. Otherwise files are converted after the middleware usage. Default: false
+- **debug** If true js files are not taken from cache, every request generates new js script and log info is showed in stdout. Default: false

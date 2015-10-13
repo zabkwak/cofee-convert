@@ -1,7 +1,10 @@
 console.log "I will be compiled to the javascript"
 
 a = ->
-	return "a"
+	"a"
 
 b = ->
-	return "b"
+	"b"
+
+c = ->
+	"c"
