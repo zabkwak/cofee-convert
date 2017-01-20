@@ -2,7 +2,7 @@
   "name": "coffee-convert",
   "description": "Express middleware. Converts all coffee files in the directory to the js files. Out js strings are stored in memory.",
   "author": "Lukas Macuda <lukas.macuda@gmail.com>",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "dependencies": {
     "coffee-script": "^1.10.0",
     "uglify-js": "^2.4.24",
